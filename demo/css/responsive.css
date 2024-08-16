@@ -1,0 +1,150 @@
+@media(max-width:992px) {
+
+    .banner .content h1 {
+        font-size: 36px;
+
+    }
+
+    .banner .content p,
+    section.video p {
+        font-size: 16px;
+
+    }
+
+
+    .stellarnav>ul>li>a {
+        padding: 10px 0;
+    }
+
+    section.video h2 {
+        font-size: 30px;
+
+    }
+
+    .cardsec h3 {
+        font-size: 35px;
+    }
+
+    .cardsec p {
+        font-size: 16px;
+        width: 421px;
+        margin: 10px auto 29px auto;
+    }
+
+    .custom-card .info h5 {
+        font-size: 20px;
+    }
+
+    .custom-card .info p {
+        font-size: 14px;
+
+    }
+
+    .custom-card .info {
+        padding-top: 15px;
+    }
+
+}
+
+@media(max-width:767px) {
+
+    .stellarnav .menu-toggle span.bars span {
+        width: 24px;
+        height: 3px;
+        background-color: #FFF !important;
+
+    }
+
+    .stellarnav.light,
+    .stellarnav.light ul ul {
+        background: transparent;
+    }
+
+    .stellarnav.mobile ul {
+    background: rgb(255 255 255);
+}
+
+.stellarnav.mobile>ul>li>a {
+    color: #000;
+    border-bottom: 1px solid #00000021;
+}
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .navmenu {
+        text-align: right;
+    }
+
+    .stellarnav.mobile.left>ul,
+    .stellarnav.mobile.right>ul {
+
+        z-index: 999999;
+    }
+
+    section {
+        padding: 25px 0;
+    }
+
+
+    .banner .content {
+        text-align: center;
+    }
+
+    .banner .content ul {
+        justify-content: center;
+    }
+
+    .b-img {
+        width: 300px;
+        max-width: 100%;
+        margin: 40px auto 0px auto;
+    }
+
+    section.video {
+        text-align: center;
+    }
+
+    .videocard {
+        width: 336px;
+        margin: 40px auto 0px auto;
+
+    }
+
+    .custom-card .info p {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .videocard:before {
+        height: 84px;
+        width: 121px;
+        bottom: -13px;
+        left: -11px;
+        z-index: -1;
+    }
+}
+
+@media(max-width:575px) {
+
+    .banner .content h1 {
+        font-size: 30px;
+    }
+
+    section.banner {
+        padding-top: 139px;
+    }
+
+    .banner .content ul a {
+        font-size: 14px;
+        padding: 10px 13px;
+
+    }
+
+    .banner .content ul li:last-child {
+        margin-right: 0px;
+    }
+
+
+}
